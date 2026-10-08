@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <!-- Leaf Gradient (Yellow to Green) -->
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    
+    <!-- Soft Glow behind the leaf -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Off-White Rounded Background -->
+  <rect width="200" height="200" rx="35" fill="#f4f4ee" />
+
+  <!-- The Glow -->
+  <circle cx="100" cy="55" r="45" fill="url(#glow)" />
+
+  <!-- The Green Radiation Rays -->
+  <g stroke="#16a34a" stroke-width="3.5" stroke-linecap="round">
+    <line x1="100" y1="12" x2="100" y2="20" />
+    <line x1="75" y1="18" x2="80" y2="26" />
+    <line x1="125" y1="18" x2="120" y2="26" />
+    <line x1="53" y1="35" x2="60" y2="40" />
+    <line x1="147" y1="35" x2="140" y2="40" />
+    <line x1="42" y1="58" x2="50" y2="56" />
+    <line x1="158" y1="58" x2="150" y2="56" />
+    <line x1="38" y1="78" x2="47" y2="76" />
+    <line x1="162" y1="78" x2="153" y2="76" />
+  </g>
+
+  <!-- The Leaf / Flame -->
+  <path d="M 100 22 C 120 40, 115 70, 100 80 C 85 70, 80 40, 100 22 Z" fill="url(#leafGrad)" />
+  
+  <!-- Leaf Internal Circuits -->
+  <g stroke="#1e293b" stroke-width="1.5" fill="#1e293b">
+    <line x1="100" y1="33" x2="100" y2="78" />
+    <line x1="100" y1="62" x2="88" y2="55" />
+    <circle cx="88" cy="55" r="1.5" />
+    <line x1="100" y1="50" x2="112" y2="42" />
+    <circle cx="112" cy="42" r="1.5" />
+    <line x1="100" y1="40" x2="90" y2="34" />
+    <circle cx="90" cy="34" r="1.5" />
+  </g>
+
+  <!-- THE 'F' STRUCTURE -->
+  <!-- Thick Navy Blue Base -->
+  <path d="M 60 178 C 85 173, 95 173, 95 158 L 95 100 C 90 90, 75 90, 55 90 
+           M 95 95 C 105 105, 125 95, 165 90
+           M 95 125 C 110 125, 125 120, 140 110
+           M 95 158 C 95 173, 105 173, 130 178" 
+        fill="none" stroke="#0f172a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Yellow Inner Circuit Traces -->
+  <path d="M 90 158 L 90 110 C 85 100, 75 100, 58 95
+           M 100 158 L 100 100 C 110 105, 125 100, 160 94
+           M 95 125 C 110 125, 125 120, 135 114" 
+        fill="none" stroke="#fde047" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Active Terminal Nodes (Red with White Center) -->
+  <circle cx="55" cy="90" r="4.5" fill="#ef4444" stroke="#fff" stroke-width="2"/>
+  <circle cx="165" cy="90" r="4.5" fill="#ef4444" stroke="#fff" stroke-width="2"/>
+  <circle cx="140" cy="110" r="4.5" fill="#ef4444" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Grounded Base Nodes (Green) -->
+  <circle cx="60" cy="178" r="3.5" fill="#22c55e" />
+  <circle cx="130" cy="178" r="3.5" fill="#22c55e" />
+</svg>

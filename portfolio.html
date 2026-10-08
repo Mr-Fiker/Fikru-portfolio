@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fikru Diriba - Software Developer</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/Portfolio.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+
+<!-- NAVBAR -->
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top py-3 custom-nav">
+  <div class="container">
+    <div class="d-flex align-items-center gap-3 me-auto">
+      <a href="#"><img src="Images/gemini-svg (3).svg" alt="Fikru Logo" class="nav-logo"></a>
+      
+      <div class="d-flex align-items-center gap-1">
+        <button class="btn btn-link nav-lang-btn on text-decoration-none px-1" data-l="en">ENG</button>
+        <span class="text-secondary">|</span>
+        <button class="btn btn-link nav-lang-btn text-decoration-none px-1" data-l="am">AMH</button>
+      </div>
+    </div>
+    
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <i class="fas fa-bars text-white fs-4"></i>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-3">
+        <!-- These hrefs now link perfectly to the sections below -->
+        <li class="nav-item"><a class="nav-link text-uppercase text-white fw-medium" href="#about" data-i="nav_about">About me</a></li>
+        <li class="nav-item"><a class="nav-link text-uppercase text-white fw-medium" href="#skills" data-i="nav_skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link text-uppercase text-white fw-medium" href="#portfolio" data-i="nav_port">Portfolio</a></li>
+        <li class="nav-item ms-lg-3"><a class="nav-link btn bg-white text-dark rounded-pill px-4 fw-bold custom-pill" href="#contact" data-i="nav_contact">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero position-relative pt-5">
+  <div class="hero-bg-diagonal d-none d-lg-block"></div>
+  <div class="hero-photo">
+    <img src="Images/Untitled-1.png" alt="Fikru Diriba">
+  </div>
+  <div class="container position-relative z-3 h-100 hero-container">
+    <div class="row h-100">
+      <div class="col-lg-7 d-flex flex-column justify-content-center pt-5 pb-5 text-center text-lg-start hero-text-wrapper" style="margin-top: 60px;">
+        <img src="Images/gemini-svg (3).svg" alt="Fikru Logo" class="mb-4 mx-auto mx-lg-0 mt-5 mt-lg-0 d-none d-lg-block floating-element" style="width: 85px; height: 85px; object-fit: contain;">
+        
+        <div class="hero-text-content">
+          <div class="text-start hero-text-main">
+            <p class="fs-5 mb-1 fw-medium" data-i="hi">Hi, I am</p>
+            <h1 class="display-3 fw-bolder mb-2 custom-heading text-dark hero-name">Fikru Diriba</h1>
+            <p class="fs-4 text-secondary mb-0 hero-title font-monospace">
+              > <span id="typewriter" class="text-accent fw-bold"></span><span class="cursor">|</span>
+            </p>
+          </div>
+          
+          <div class="d-flex flex-column flex-lg-row align-items-center gap-4 mt-4 hero-actions">
+            <div class="hero-socials d-flex gap-3">
+  <a href="https://www.linkedin.com/in/fikru-diriba-92a3492ba/" target="_blank" class="social-icon btn btn-dark rounded-circle floating-element" style="animation-delay: 0.1s;"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/Mr-Fiker" target="_blank" class="social-icon btn btn-dark rounded-circle floating-element" style="animation-delay: 0.3s;"><i class="fab fa-github"></i></a>
+  <a href="https://www.behance.net/fikrudiriba" target="_blank" class="social-icon btn btn-dark rounded-circle floating-element" style="animation-delay: 0.5s;"><i class="fab fa-behance"></i></a>
+</div>
+            <a href="Images/Fikru Diriba - Top-Tier CV.pdf" download class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 mt-3 mt-lg-0 cv-btn responsive-btn">
+              <i class="fas fa-download me-2"></i> DOWNLOAD CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOVING TECH TICKER -->
+<div class="ticker-wrap bg-accent">
+  <div class="ticker-move text-white fw-bold letter-spaced">
+    <div class="ticker-item">HTML5</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">CSS3 & SASS</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">JAVASCRIPT</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">REACT</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">BOOTSTRAP</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">CAPCUT PRO</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">STORYTELLING</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <!-- Duplicated for infinite smooth scroll -->
+    <div class="ticker-item">HTML5</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">CSS3 & SASS</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">JAVASCRIPT</div><div class="ticker-item"><i class="fas fa-circle" style="font-size: 6px;"></i></div>
+    <div class="ticker-item">REACT</div>
+  </div>
+</div>
+
+<!-- TECH & IMPACT -->
+<section class="bg-black text-white py-5 position-relative overflow-hidden">
+  <div class="container py-5 position-relative z-2 text-center text-lg-start fade-in-section">
+    <h3 class="letter-spaced mb-4 fw-bold text-accent" data-i="itb_t">TECH & IMPACT</h3>
+    <!-- Text contrast massively improved here -->
+    <p class="lead text-white mb-4 mx-auto mx-lg-0 fw-medium" style="max-width: 800px; line-height: 1.8;" data-i="itb_p">
+      I am Fikru, also known as Mr_Fiker. I currently work as an IT Assistant in the Gambella field office for World Vision Ethiopia. Alongside my IT operations role, I am enrolled in an AI-powered full-stack application development program. I apply narrative techniques and human-centered storytelling frameworks to document field interventions, blending technological solutions with real community impact.
+    </p>
+    <a href="#about" class="btn btn-outline-light px-5 py-2 fw-bold text-uppercase letter-spaced responsive-btn" data-i="more">MORE</a>
+  </div>
+  <div class="watermark-text position-absolute">IT</div>
+</section>
+
+<!-- ABOUT & EXPLORE -->
+<section id="about" class="bg-light py-5 text-center">
+  <div class="container py-5 fade-in-section">
+    <div class="section-title mb-5 mx-auto text-dark" data-i="about_t">ABOUT ME</div>
+    <p class="lead text-dark-custom mx-auto mb-4 fw-medium" style="max-width: 800px;" data-i="about_p1">
+      I hold a Bachelor's degree in Electrical and Computer Engineering from Arba Minch University. Furthering my commitment to impactful work, I completed a Master's degree in Community Leadership from Leadstar Christian University and am currently pursuing a Master's in Project Planning and Management at Gambella University.
+    </p>
+    
+    <div class="collapse" id="aboutMoreCollapse">
+      <p class="lead text-dark-custom mx-auto mb-4 fw-medium" style="max-width: 800px;" data-i="about_p2">
+        Beyond coding and IT infrastructure, my passion extends to digital media production. I specialize in video editing workflows using CapCut, conceptualizing children's educational media in Amharic, and documenting field interviews from humanitarian efforts.
+      </p>
+    </div>
+    <button class="btn btn-dark px-4 py-2 fw-bold letter-spaced mb-5 responsive-btn" type="button" data-bs-toggle="collapse" data-bs-target="#aboutMoreCollapse" aria-expanded="false" data-i="explore">EXPLORE</button>
+
+    <div class="row g-4 mt-2 text-start">
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 feature-card floating-element" style="animation-delay: 0.1s;">
+          <h4 class="fw-bold fs-5 mb-3 text-accent text-uppercase" data-i="d1_t">Web Development</h4>
+          <p class="text-dark-custom mb-0 fw-medium" data-i="d1_p">I actively build and design using front-end web development techniques, focusing on HTML, CSS, Flexbox, CSS Grid, and responsive web design frameworks.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 feature-card floating-element" style="animation-delay: 0.3s;">
+          <h4 class="fw-bold fs-5 mb-3 text-accent text-uppercase" data-i="d2_t">Storytelling</h4>
+          <p class="text-dark-custom mb-0 fw-medium" data-i="d2_p">I apply structured narrative techniques to create beneficiary profiles and document field interventions through compelling video editing and copywriting.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 feature-card floating-element" style="animation-delay: 0.5s;">
+          <h4 class="fw-bold fs-5 mb-3 text-accent text-uppercase" data-i="d3_t">IT Operations</h4>
+          <p class="text-dark-custom mb-0 fw-medium" data-i="d3_p">With my background as an IT Assistant, I maintain technological infrastructure and provide operational support in demanding field environments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="bg-light pb-5 pt-2 text-start">
+  <div class="container pb-5 fade-in-section">
+    <div class="text-center mb-5">
+      <div class="section-title mx-auto text-dark" data-i="skills_t">SKILLS</div>
+    </div>
+    
+    <div class="row g-4 mx-auto" style="max-width: 1100px;">
+      <!-- Frontend Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card h-100 p-4 shadow-sm border-top-accent">
+          <div class="d-flex align-items-center mb-4">
+            <div class="category-icon bg-primary bg-opacity-10 text-primary me-3"><i class="fas fa-laptop-code"></i></div>
+            <h5 class="text-dark fw-bold letter-spaced fs-6 mb-0" data-i="using">FRONTEND & UI</h5>
+          </div>
+          <!-- Increased gap and added explicit margins to badges -->
+          <div class="d-flex flex-wrap gap-3">
+            <span class="modern-badge"><i class="fab fa-html5 text-danger"></i> HTML5</span>
+            <span class="modern-badge"><i class="fab fa-css3-alt text-primary"></i> CSS3</span>
+            <span class="modern-badge"><i class="fab fa-js text-warning"></i> JavaScript</span>
+            <span class="modern-badge"><i class="fab fa-react text-info"></i> React</span>
+            <span class="modern-badge"><i class="fab fa-bootstrap" style="color: #7952B3;"></i> Bootstrap</span>
+            <span class="modern-badge"><i class="fab fa-sass" style="color: #CC6699;"></i> SASS</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tools Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card h-100 p-4 shadow-sm border-top-accent">
+          <div class="d-flex align-items-center mb-4">
+            <div class="category-icon bg-danger bg-opacity-10 text-danger me-3"><i class="fas fa-photo-video"></i></div>
+            <h5 class="text-dark fw-bold letter-spaced fs-6 mb-0" data-i="learning">TOOLS & MEDIA</h5>
+          </div>
+          <div class="d-flex flex-wrap gap-3">
+            <span class="modern-badge"><i class="fas fa-video text-dark"></i> CapCut Pro</span>
+            <span class="modern-badge"><i class="fas fa-pen-nib text-danger"></i> Storytelling</span>
+            <span class="modern-badge"><i class="fab fa-git-alt text-danger"></i> Git</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Operations Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card h-100 p-4 shadow-sm border-top-accent">
+          <div class="d-flex align-items-center mb-4">
+            <div class="category-icon bg-success bg-opacity-10 text-success me-3"><i class="fas fa-server"></i></div>
+            <h5 class="text-dark fw-bold letter-spaced fs-6 mb-0" data-i="other">OPERATIONS</h5>
+          </div>
+          <div class="d-flex flex-wrap gap-3">
+            <span class="modern-badge"><i class="fas fa-network-wired text-secondary"></i> IT Infrastructure</span>
+            <span class="modern-badge"><i class="fas fa-project-diagram text-info"></i> Project Mgt</span>
+            <span class="modern-badge"><i class="fas fa-users text-success"></i> Leadership</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="bg-dark py-5 text-center fade-in-section">
+    <div class="section-title text-white bg-dark border-white mx-auto mb-0" data-i="port_t">PORTFOLIO</div>
+  </div>
+  <div class="bg-black py-3 text-center">
+    <div class="btn-group portfolio-filters" role="group">
+      <button type="button" class="btn btn-link text-decoration-none text-light fw-bold letter-spaced active filter-btn" data-filter="all" data-i="all">ALL</button>
+      <button type="button" class="btn btn-link text-decoration-none text-secondary fw-bold letter-spaced filter-btn" data-filter="coded" data-i="coded">DEVELOPMENT</button>
+      <button type="button" class="btn btn-link text-decoration-none text-secondary fw-bold letter-spaced filter-btn" data-filter="designed" data-i="designed">MEDIA</button>
+    </div>
+  </div>
+  
+  <div class="row g-0 bg-dark" id="portfolioGrid">
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="coded designed">
+      <div class="ratio ratio-16x9 bg-black text-white p-4 d-flex flex-column align-items-center justify-content-center border border-dark text-center shadow-lg position-relative z-3">
+        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80" alt="Edumedia" class="position-absolute w-100 h-100 object-fit-cover opacity-25">
+        <div class="position-relative z-2">
+          <h6 class="fs-4 fw-bold letter-spaced mb-2 text-accent">e d u m e d i a .</h6>
+          <small class="text-light d-block mb-3" data-i="eat_p">Amharic Educational Series featuring ትንሹ ልዑል</small>
+          <div class="d-flex gap-2 justify-content-center">
+            <a href="#" class="btn btn-outline-light btn-sm fw-bold letter-spaced"><i class="fas fa-play"></i> DEMO</a>
+            <a href="#" class="btn btn-outline-light btn-sm fw-bold letter-spaced" data-i="more">MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="coded">
+      <div class="ratio ratio-16x9 overflow-hidden position-relative group-hover">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Development Project" class="img-fluid object-fit-cover w-100 h-100">
+        <div class="portfolio-overlay">
+          <h5 class="fw-bold">Evangadi Full-Stack</h5>
+          <a href="#" class="btn btn-sm btn-light mt-2 rounded-pill fw-bold">VIEW REPO</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="designed">
+      <div class="ratio ratio-16x9 overflow-hidden position-relative group-hover">
+        <img src="https://images.unsplash.com/photo-1535016120720-40c746a65652?auto=format&fit=crop&w=800&q=80" alt="Video Editing" class="img-fluid object-fit-cover w-100 h-100">
+        <div class="portfolio-overlay">
+          <h5 class="fw-bold">Field Interventions</h5>
+          <a href="#" class="btn btn-sm btn-light mt-2 rounded-pill fw-bold">WATCH VIDEO</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="coded">
+      <div class="ratio ratio-16x9 overflow-hidden position-relative group-hover">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Coding" class="img-fluid object-fit-cover w-100 h-100">
+        <div class="portfolio-overlay">
+          <h5 class="fw-bold">React Frontend</h5>
+          <a href="#" class="btn btn-sm btn-light mt-2 rounded-pill fw-bold">VIEW REPO</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="designed">
+      <div class="ratio ratio-16x9 overflow-hidden position-relative group-hover">
+        <img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=800&q=80" alt="Storytelling" class="img-fluid object-fit-cover w-100 h-100">
+        <div class="portfolio-overlay">
+          <h5 class="fw-bold">Beneficiary Profiles</h5>
+          <a href="#" class="btn btn-sm btn-light mt-2 rounded-pill fw-bold">READ STORY</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 portfolio-item" data-category="coded">
+      <div class="ratio ratio-16x9 overflow-hidden position-relative group-hover">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Servers" class="img-fluid object-fit-cover w-100 h-100">
+        <div class="portfolio-overlay">
+          <h5 class="fw-bold">IT Operations</h5>
+          <a href="#" class="btn btn-sm btn-light mt-2 rounded-pill fw-bold">DETAILS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-black text-secondary text-center py-4 fw-bold letter-spaced fs-6" data-i="many">
+    And many more to come!
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-light py-5 text-center">
+  <div class="container py-5 fade-in-section">
+    <div class="section-title mx-auto mb-4 text-dark" data-i="contact_t">CONTACT</div>
+    <p class="lead text-dark-custom mx-auto mb-5 fw-medium" style="max-width: 600px;" data-i="contact_lead">Whether it's for a development project, digital innovation initiatives, or IT operational support, feel free to reach out.</p>
+    
+    <form id="contactForm" class="mx-auto text-start shadow-lg p-5 bg-white rounded-4" style="max-width: 550px;">
+      <div class="mb-4 custom-input">
+        <input type="text" class="form-control" required data-p="name_p" placeholder="ENTER YOUR NAME*">
+      </div>
+      <div class="mb-4 custom-input">
+        <input type="email" class="form-control" required data-p="email_p" placeholder="ENTER YOUR EMAIL*">
+      </div>
+      <div class="mb-4 custom-input">
+        <input type="text" class="form-control" data-p="phone_p" placeholder="PHONE NUMBER">
+      </div>
+      <div class="mb-4 custom-input">
+        <textarea class="form-control" rows="4" required data-p="msg_p" placeholder="YOUR MESSAGE*"></textarea>
+      </div>
+      <div class="text-center mt-5">
+        <button type="submit" class="btn btn-dark px-5 py-3 fw-bold letter-spaced w-100 rounded-pill responsive-btn" data-i="submit">SUBMIT MESSAGE</button>
+      </div>
+      <div id="formMsg" class="text-success text-center fw-bold mt-3 d-none"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center py-5">
+  <div class="container pt-4">
+    <a href="#" class="text-decoration-none text-accent fw-bold letter-spaced d-inline-block border-bottom border-accent pb-1 mb-4 footer-top-link" data-i="top">B A C K T O T O P</a>
+    <div class="d-flex justify-content-center gap-3 mb-4">
+  <a href="https://www.linkedin.com/in/fikru-diriba-92a3492ba/" target="_blank" class="social-icon btn btn-dark rounded-circle text-white"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/Mr-Fiker" target="_blank" class="social-icon btn btn-dark rounded-circle text-white"><i class="fab fa-github"></i></a>
+  <a href="https://www.behance.net/fikrudiriba" target="_blank" class="social-icon btn btn-dark rounded-circle text-white"><i class="fab fa-behance"></i></a>
+</div>
+    <div class="text-secondary fs-6" data-i="copy">© 2026 Fikru Diriba. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS Logic -->
+<script>
+// Translations
+const T={
+en:{nav_about:"About me",nav_skills:"Skills",nav_port:"Portfolio",nav_contact:"CONTACT ME",hi:"Hi, I am",
+itb_t:"TECH & IMPACT",itb_p:"I am Fikru, also known as Mr_Fiker. I currently work as an IT Assistant in the Gambella field office for World Vision Ethiopia. Alongside my IT operations role, I am enrolled in an AI-powered full-stack application development program. I apply narrative techniques and human-centered storytelling frameworks to document field interventions, blending technological solutions with real community impact.",
+more:"MORE",about_t:"ABOUT ME",about_p1:"I hold a Bachelor's degree in Electrical and Computer Engineering from Arba Minch University. Furthering my commitment to impactful work, I completed a Master's degree in Community Leadership from Leadstar Christian University and am currently pursuing a Master's in Project Planning and Management at Gambella University.",
+about_p2:"Beyond coding and IT infrastructure, my passion extends to digital media production. I specialize in video editing workflows using CapCut, conceptualizing children's educational media in Amharic, and documenting field interviews from humanitarian efforts.",
+explore:"EXPLORE",d1_t:"Web Development",d1_p:"I actively build and design using front-end web development techniques, focusing on HTML, CSS, Flexbox, CSS Grid, and responsive web design frameworks.",
+d2_t:"Storytelling",d2_p:"I apply structured narrative techniques to create beneficiary profiles and document field interventions through compelling video editing and copywriting.",
+d3_t:"IT Operations",d3_p:"With my background as an IT Assistant, I maintain technological infrastructure and provide operational support in demanding field environments.",
+skills_t:"SKILLS",using:"FRONTEND & UI",learning:"TOOLS & MEDIA",other:"OPERATIONS & MANAGEMENT",
+port_t:"PORTFOLIO",all:"ALL",coded:"DEVELOPMENT",designed:"MEDIA",eat_p:"Amharic Educational Series featuring ትንሹ ልዑል",eat_tag:"video, storytelling",many:"And many more to come!",
+contact_t:"CONTACT",contact_lead:"Whether it's for a development project, digital innovation initiatives, or IT operational support, feel free to reach out.",submit:"SUBMIT MESSAGE",top:"BACK TO TOP",copy:"© 2026 Fikru Diriba. All Rights Reserved.",
+name_p:"ENTER YOUR NAME*",email_p:"ENTER YOUR EMAIL*",phone_p:"PHONE NUMBER",msg_p:"YOUR MESSAGE*",sent:"Thank you! Your message has been sent."},
+am:{nav_about:"ስለ እኔ",nav_skills:"ችሎታዎች",nav_port:"ፖርትፎሊዮ",nav_contact:"አግኙኝ",hi:"ሰላም, እኔ",
+itb_t:"ቴክኖሎጂ እና ተፅዕኖ",itb_p:"እኔ ፍቅሩ ነኝ። በጋምቤላ ዎርልድ ቪዥን ኢትዮጵያ የአይቲ ረዳት ሆኜ እሰራለሁ። ከዚህም በተጨማሪ የሙሉ-ቁልል መተግበሪያ ማዘጋጀት ትምህርት እየተማርኩ እገኛለሁ።",
+more:"ተጨማሪ",about_t:"ስለ እኔ",about_p1:"ከአርባምንጭ ዩኒቨርሲቲ በኤሌክትሪካል እና ኮምፒውተር ምህንድስና የመጀመሪያ ዲግሪ አለኝ። እንዲሁም ከሊድስታር ክርስቲያን ዩኒቨርሲቲ በማህበረሰብ አመራር የማስተርስ ዲግሪ አለኝ።",
+about_p2:"ከፕሮግራም በተጨማሪ በCapCut ቪዲዮዎችን በማቀነባበር እና የህጻናት ትምህርታዊ ቪዲዮዎችን በማዘጋጀት ላይ እሰራለሁ።",
+explore:"ያስሱ",d1_t:"ዌብ ደቨሎፕመንት",d1_p:"የፊት-ገፅ ዌብ ደቨሎፕመንት እሰራለሁ።",
+d2_t:"ታሪክ አተረጓጎም",d2_p:"የተጠቃሚዎችን ፕሮፋይል እና የመስክ ላይ ተግባራትን በቪዲዮ አዘጋጃለሁ።",
+d3_t:"የአይቲ ስራዎች",d3_p:"የቴክኖሎጂ መሰረተ ልማቶችን እጠግናለሁ።",
+skills_t:"ችሎታዎች",using:"የፊት-ገፅ (FRONTEND)",learning:"መሳሪያዎች (TOOLS)",other:"አስተዳደር (MANAGEMENT)",
+port_t:"ፖርትፎሊዮ",all:"ሁሉም",coded:"ፕሮግራሚንግ",designed:"ሚዲያ",eat_p:"የአማርኛ ትምህርታዊ ተከታታይ ከትንሹ ልዑል ጋር",eat_tag:"ቪዲዮ, ታሪክ አተረጓጎም",many:"እና ሌሎችም ብዙ!",
+contact_t:"አግኙኝ",contact_lead:"ለማንኛውም ስራ ሊያገኙኝ ይችላሉ።",submit:"አስገባ",top:"ወደ ላይ ተመለስ",copy:"© 2026 ፍቅሩ ዲሪባ። መብቱ በህግ የተጠበቀ ነው።",
+name_p:"ስምዎን ያስገቡ*",email_p:"ኢሜይልዎን ያስገቡ*",phone_p:"ስልክ ቁጥር",msg_p:"መልዕክትዎ*",sent:"አመሰግናለሁ! መልዕክትዎ ተልኳል።"}
+};
+
+let lang='en';
+function setLang(l){
+  lang=l;
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-i]').forEach(e=>{
+    const v=T[l][e.dataset.i];
+    if(v) e.textContent=v;
+  });
+  document.querySelectorAll('[data-p]').forEach(e=>{
+    e.placeholder=T[l][e.dataset.p];
+  });
+  document.querySelectorAll('.nav-lang-btn').forEach(b=>{
+    if(b.dataset.l === l) { b.classList.add('text-white'); b.classList.remove('text-secondary'); } 
+    else { b.classList.add('text-secondary'); b.classList.remove('text-white'); }
+  });
+}
+
+document.querySelectorAll('.nav-lang-btn').forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+setLang('en');
+
+// Navbar background change on scroll
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('mainNav');
+  if (window.scrollY > 50) {
+    nav.classList.add('bg-black', 'shadow-sm');
+    nav.classList.remove('bg-transparent');
+  } else {
+    nav.classList.add('bg-black'); 
+  }
+});
+
+// Portfolio Filtering
+const filterBtns = document.querySelectorAll('.filter-btn');
+const portfolioItems = document.querySelectorAll('.portfolio-item');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => { b.classList.remove('text-light', 'active'); b.classList.add('text-secondary'); });
+    btn.classList.add('text-light', 'active'); btn.classList.remove('text-secondary');
+    const filterValue = btn.getAttribute('data-filter');
+    portfolioItems.forEach(item => {
+      if (filterValue === 'all' || item.getAttribute('data-category').includes(filterValue)) { item.style.display = 'block'; } 
+      else { item.style.display = 'none'; }
+    });
+  });
+});
+
+// Form Submission
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const msgBox = document.getElementById('formMsg');
+  msgBox.textContent = T[lang].sent;
+  msgBox.classList.remove('d-none');
+  this.reset();
+  setTimeout(() => msgBox.classList.add('d-none'), 4000);
+});
+
+// Master Navigation & Smooth Scrolling Logic
+document.querySelectorAll('.navbar-nav .nav-link, .hero-actions .btn-outline-light').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    // Only apply to links that start with a # (internal page links)
+    const targetId = this.getAttribute('href');
+    if (!targetId || !targetId.startsWith('#') || targetId === '#') return;
+
+    const targetSection = document.querySelector(targetId);
+    if (targetSection) {
+      e.preventDefault(); // Stop the default instant jump
+      
+      // Calculate exactly where to scroll, offset by the height of your fixed navbar
+      const navHeight = document.getElementById('mainNav').offsetHeight;
+      const targetPosition = targetSection.getBoundingClientRect().top + window.scrollY - navHeight;
+      
+      // Execute the smooth scroll
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+      
+      // Auto-close mobile menu if it is open
+      const navbarCollapse = document.getElementById('navbarContent');
+      if(navbarCollapse.classList.contains('show')) {
+        bootstrap.Collapse.getInstance(navbarCollapse).hide();
+      }
+    }
+  });
+});
+
+// Typing Effect
+const titles = ["Full-Stack Developer", "IT Operations Assistant", "Digital Storyteller", "Mr_Fiker"];
+let count = 0, index = 0, currentText = "", isDeleting = false;
+function type() {
+  const typewriterElement = document.getElementById("typewriter");
+  if(!typewriterElement) return;
+  if (count === titles.length) { count = 0; }
+  currentText = titles[count];
+  if (isDeleting) { typewriterElement.textContent = currentText.substring(0, index - 1); index--; } 
+  else { typewriterElement.textContent = currentText.substring(0, index + 1); index++; }
+  let typeSpeed = 100;
+  if (isDeleting) { typeSpeed /= 2; }
+  if (!isDeleting && index === currentText.length) { typeSpeed = 2000; isDeleting = true; } 
+  else if (isDeleting && index === 0) { isDeleting = false; count++; typeSpeed = 500; }
+  setTimeout(type, typeSpeed);
+}
+document.addEventListener("DOMContentLoaded", type);
+
+// Scroll Reveal Animations (Market Trend)
+const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.fade-in-section').forEach((section) => {
+  observer.observe(section);
+});
+</script>
+</body>
+</html>
